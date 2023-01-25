@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/api/getid/:description", (req, res) => {
     const description = req.params.description;
     const query = "SELECT id FROM text_snippets WHERE description = ? ORDER BY id DESC LIMIT 1";
-    db.query(query, description, async (err, result) => {
+    db.query(query, description, (err, result) => {
         res.send(result);
     });
 });
