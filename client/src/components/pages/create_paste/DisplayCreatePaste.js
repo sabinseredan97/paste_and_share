@@ -7,7 +7,6 @@ export default function DisplayCreatePaste(props) {
     let className = props.className;
     const CustomTag = props.tag;
 
-
     function givePaste() {
         props.getPaste(paste);
     }
