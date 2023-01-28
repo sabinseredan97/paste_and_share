@@ -17,7 +17,7 @@ export default function DisplayCreatePaste(props) {
             <Card.Header className="bg-dark text-white">{headerTxt}</Card.Header>
             <Card.Body className="bg-secondary">
                 <blockquote className="blockquote mb-0">
-                    <CustomTag type="text" className={className} onMouseLeave={givePaste} onChange={(e) => {
+                    <CustomTag type="text" className={className} onBlur={givePaste} onChange={(e) => {
                         setPaste(e.target.value);
                         }}>
                     </CustomTag>
