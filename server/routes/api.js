@@ -2,7 +2,6 @@ var express = require('express');
 var db = require("../database");
 var router = express.Router();
 
-/* GET users listing. */
 router.post("/paste/insert", (req, res) => {
   const description = req.body.description;
   const snippet = req.body.snippet;
