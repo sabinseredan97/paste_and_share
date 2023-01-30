@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
     return (
-        <div className="text">
+        <div>
             <h1>About</h1>
             <h4>
                 To share your text snippets with other people all you have to do 
