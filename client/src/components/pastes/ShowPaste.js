@@ -42,7 +42,7 @@ export default function ShowPaste() {
                                     type="text"
                                     className="form-control descriptionArea"
                                     value={pasteDescription}
-                                    disabled={true}
+                                    readOnly
                                 />
                             </Card.Text>
                             <Card.Title>Paste text</Card.Title>
@@ -50,7 +50,7 @@ export default function ShowPaste() {
                                 <textarea
                                     className="form-control textArea"
                                     value={pasteText}
-                                    disabled={true}
+                                    readOnly
                                 />
                             </Card.Text>
                         </Card.Body>
