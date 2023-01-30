@@ -1,6 +1,8 @@
 # paste_snd_share-pastebin_clone is a web app that lets you share text snippets with anyone.
+On the home page you will see a list of all the pastes sorted by the most recent ones,
+if you want to share one of those just click on the go to this paste button.
 To create a paste all you have to to is click on create paste on the navbar:
-![image](https://user-images.githubusercontent.com/114243765/215266264-6ee880da-23c9-4e8a-9cf6-2c17d4f221ce.png)
+![image](https://user-images.githubusercontent.com/114243765/215492905-9428c0bf-f9a0-4ab3-89f1-c703124ae4f9.png)
 Than write a description, write your paste's text and after that press the save paste button:
 ![image](https://user-images.githubusercontent.com/114243765/215441625-e5babfac-6a10-4574-9153-b7505de0c0c6.png)
 After that press the Share your Paste button to be redirected to the link of the paste:
