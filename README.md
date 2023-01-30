@@ -7,4 +7,4 @@ After that press the Share your Paste button to be redirected to the link of the
 ![image](https://user-images.githubusercontent.com/114243765/215441910-7f2bd9dd-0ac0-4100-8e91-b010d84f2429.png)
 And finally press the Copy link button and the link to the paste will be copied in the clipboard,
 than give that link to anybody you want to share the paste with:
-![image](https://user-images.githubusercontent.com/114243765/215266617-9985e2ba-58be-435c-8f09-3bb45789892f.png)
+![image](https://user-images.githubusercontent.com/114243765/215442080-ed4d83f8-2a9d-4793-8318-01efc5169642.png)
