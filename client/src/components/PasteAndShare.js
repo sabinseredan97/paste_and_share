@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Axios from "axios";
 import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom";
 
 export default function PasteAndShare() {
   const [pastesList, setPastesList] = useState([]);
@@ -46,7 +47,7 @@ export default function PasteAndShare() {
                   readOnly
                 />
               </Card.Text>
-              <a href={`/paste/${paste.id}`}>Go to this paste</a>
+              <Link to={`/paste/${paste.id}`} >Go to this paste</Link>
             </Card.Body>
           </Card>
         </form>
