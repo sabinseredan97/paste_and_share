@@ -1,4 +1,4 @@
-# paste_snd_share-pastebin_clone is a web app that lets you share text snippets with anyone.
+# Paste_and_share is a web app that lets you share text snippets with anyone.
 On the home page you will see a list of all the pastes sorted by the most recent ones,
 if you want to share one of those just click on the go to this paste button.
 To create a paste all you have to to is click on create paste on the navbar:
