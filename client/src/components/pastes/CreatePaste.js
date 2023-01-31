@@ -35,8 +35,6 @@ export default function CreatePaste() {
       let shareBtn = document.getElementById("shareBTN");
       shareBtn.classList.remove("show");
     } catch (err) {
-      errorDiv = document.getElementById("error");
-      errorMsg = document.getElementById("errorMessage");
       let errorTitle = document.getElementById("errorTitle");
       errorMsg.innerHTML = err.message;
       errorTitle.innerHTML = "Your snippet was saved but the share URL could't be accessed";
@@ -49,7 +47,6 @@ export default function CreatePaste() {
   }
 
   function navigateHome() {
-    errorDiv = document.getElementById("error");
     errorDiv.classList.remove("show");
     navigate("/");
   }
