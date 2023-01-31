@@ -11,7 +11,7 @@ router.post("/insert", (req, res) => {
   });
 });
 
-router.get("/select", (req, res) => {
+router.get("/list", (req, res) => {
   const query = "SELECT * FROM text_snippets ORDER BY id DESC";
   db.query(query, (err, result) => {
     res.send(result);
